@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda | KopiKita</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header id="aulia_header">
+      <div class="aulia_container aulia_nav">
+        <a href="index.html" class="aulia_logo"
+          ><img
+            src="assets/images/coffee-7057030_1280.png"
+            alt="Logo KopiKita"
+          /><span>KopiKita</span></a
+        >
+        <button
+          id="aulia_toggle"
+          class="aulia_toggle"
+          aria-label="Buka menu navigasi"
+        >
+          ☰
+        </button>
+        <ul id="aulia_menu" class="aulia_menu">
+          <li>
+            <a href="index.html" class="aulia_link aulia_active">Beranda</a>
+          </li>
+          <li><a href="menu.html" class="aulia_link">Menu</a></li>
+          <li><a href="tentang.html" class="aulia_link">Tentang Kami</a></li>
+          <li><a href="galeri.html" class="aulia_link">Galeri</a></li>
+          <li><a href="testimoni.html" class="aulia_link">Testimoni</a></li>
+          <li><a href="lokasi.html" class="aulia_link">Lokasi</a></li>
+          <li><a href="kontak.html" class="aulia_link">Kontak</a></li>
+        </ul>
+      </div>
+    </header>
+    <main id="aulia_main">
+      <section class="aulia_hero">
+        <div class="aulia_container aulia_hero_grid">
+          <div>
+            <span class="aulia_tag">☕ Kedai Kopi</span>
+            <h1 class="aulia_title">Secangkir Kopi, Sejuta Cerita</h1>
+            <p>
+              KopiKita adalah kedai kopi hangat untuk pelajar, mahasiswa,
+              pekerja, dan pecinta kopi. Nikmati kopi pilihan di tempat yang
+              nyaman.
+            </p>
+            <a href="menu.html" class="aulia_button">Lihat Menu</a>
+          </div>
+          <img
+            src="assets/images/coffee-7057030_1280.png"
+            alt="Secangkir kopi hangat khas KopiKita"
+            class="aulia_hero_img"
+          />
+        </div>
+      </section>
+      <section class="aulia_section">
+        <div class="aulia_container">
+          <h2 class="aulia_heading">Menu Favorit</h2>
+          <div class="aulia_grid">
+            <article
+              class="aulia_card aulia_item"
+              data-id="kk-1"
+              data-name="Es Kopi Susu"
+              data-price="18000"
+              data-image="assets/images/kopisusu.jpg"
+              data-desc="Espresso, susu segar, dan es batu. Segar dan manis pas."
+              data-category="coffee"
+              tabindex="0"
+              role="button"
+              aria-label="Lihat detail Es Kopi Susu"
+            >
+              <img src="assets/images/kopisusu.jpg" alt="Foto Es Kopi Susu" />
+              <div class="aulia_card_body">
+                <span class="aulia_tag">Coffee</span>
+                <h3>Es Kopi Susu</h3>
+                <p>Espresso, susu segar, dan es batu. Segar dan manis pas.</p>
+                <strong class="aulia_price">Rp18.000</strong
+                ><button
+                  type="button"
+                  class="aulia_order_button"
+                  data-order="1"
+                >
+                  Pesan
+                </button>
+              </div>
+            </article>
+            <article
+              class="aulia_card aulia_item"
+              data-id="kk-2"
+              data-name="Caramel Latte"
+              data-price="23000"
+              data-image="assets/images/icedCaramel.jpg"
+              data-desc="Latte lembut dengan saus karamel manis."
+              data-category="coffee"
+              tabindex="0"
+              role="button"
+              aria-label="Lihat detail Caramel Latte"
+            >
+              <img
+                src="assets/images/icedCaramel.jpg"
+                alt="Foto Caramel Latte"
+              />
+              <div class="aulia_card_body">
+                <span class="aulia_tag">Coffee</span>
+                <h3>Caramel Latte</h3>
+                <p>Latte lembut dengan saus karamel manis.</p>
+                <strong class="aulia_price">Rp23.000</strong
+                ><button
+                  type="button"
+                  class="aulia_order_button"
+                  data-order="1"
+                >
+                  Pesan
+                </button>
+              </div>
+            </article>
+            <article
+              class="aulia_card aulia_item"
+              data-id="kk-3"
+              data-name="Cappuccino"
+              data-price="20000"
+              data-image="assets/images/capucinooo.jpg"
+              data-desc="Espresso dengan busa susu tebal yang creamy."
+              data-category="coffee"
+              tabindex="0"
+              role="button"
+              aria-label="Lihat detail Cappuccino"
+            >
+              <img src="assets/images/capucinooo.jpg" alt="Foto Cappuccino" />
+              <div class="aulia_card_body">
+                <span class="aulia_tag">Coffee</span>
+                <h3>Cappuccino</h3>
+                <p>Espresso dengan busa susu tebal yang creamy.</p>
+                <strong class="aulia_price">Rp20.000</strong
+                ><button
+                  type="button"
+                  class="aulia_order_button"
+                  data-order="1"
+                >
+                  Pesan
+                </button>
+              </div>
+            </article>
+          </div>
+          <p class="aulia_center">
+            <a href="menu.html" class="aulia_button">Semua Menu</a>
+          </p>
+        </div>
+      </section>
+      <section class="aulia_section aulia_alt">
+        <div class="aulia_container">
+          <h2 class="aulia_heading">Mengapa KopiKita?</h2>
+          <div class="aulia_grid">
+            <div class="aulia_feature">
+              <span>🫘</span>
+              <h3>Biji Kopi Berkualitas</h3>
+              <p>Biji kopi pilihan yang diseduh segar setiap hari.</p>
+            </div>
+            <div class="aulia_feature">
+              <span>💰</span>
+              <h3>Harga Terjangkau</h3>
+              <p>Cocok untuk kantong pelajar dan mahasiswa.</p>
+            </div>
+            <div class="aulia_feature">
+              <span>🛋️</span>
+              <h3>Tempat Nyaman</h3>
+              <p>Suasana hangat untuk nongkrong, belajar, atau bekerja.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="aulia_footer">
+      <div class="aulia_container aulia_footer_grid">
+        <div>
+          <h3>KopiKita</h3>
+          <p>Secangkir Kopi, Sejuta Cerita.</p>
+        </div>
+        <div class="aulia_footer_links">
+          <a href="index.html">Beranda</a><a href="menu.html">Menu</a
+          ><a href="tentang.html">Tentang Kami</a
+          ><a href="galeri.html">Galeri</a><a href="testimoni.html">Testimoni</a
+          ><a href="lokasi.html">Lokasi</a><a href="kontak.html">Kontak</a>
+        </div>
+      </div>
+      <p class="aulia_copy">© 2026 KopiKita</p>
+    </footer>
+    <button id="aulia_top" class="aulia_top" aria-label="Kembali ke atas">
+      ↑
+    </button>
+    <script src="js/script.js"></script>
+  </body>
+</html>

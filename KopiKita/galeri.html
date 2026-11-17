@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeri | KopiKita</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header id="aulia_header">
+      <div class="aulia_container aulia_nav">
+        <a href="index.html" class="aulia_logo"
+          ><img
+            src="assets/images/coffee-7057030_1280.png"
+            alt="Logo KopiKita"
+          /><span>KopiKita</span></a
+        >
+        <button
+          id="aulia_toggle"
+          class="aulia_toggle"
+          aria-label="Buka menu navigasi"
+        >
+          ☰
+        </button>
+        <ul id="aulia_menu" class="aulia_menu">
+          <li><a href="index.html" class="aulia_link">Beranda</a></li>
+          <li><a href="menu.html" class="aulia_link">Menu</a></li>
+          <li><a href="tentang.html" class="aulia_link">Tentang Kami</a></li>
+          <li>
+            <a href="galeri.html" class="aulia_link aulia_active">Galeri</a>
+          </li>
+          <li><a href="testimoni.html" class="aulia_link">Testimoni</a></li>
+          <li><a href="lokasi.html" class="aulia_link">Lokasi</a></li>
+          <li><a href="kontak.html" class="aulia_link">Kontak</a></li>
+        </ul>
+      </div>
+    </header>
+    <main id="aulia_main">
+      <section class="aulia_pagehead">
+        <div class="aulia_container">
+          <h1 class="aulia_title">Galeri KopiKita</h1>
+          <p>
+            Intip minuman dan suasana kedai kami. Klik foto untuk memperbesar.
+          </p>
+        </div>
+      </section>
+      <section class="aulia_section">
+        <div class="aulia_container">
+          <div class="aulia_grid">
+            <figure class="aulia_gallery">
+              <img
+                src="assets/images/kopisusu.jpg"
+                alt="Es Kopi Susu"
+                data-caption="Es Kopi Susu – Kopi susu dingin favorit."
+              />
+              <figcaption>Es Kopi Susu</figcaption>
+            </figure>
+            <figure class="aulia_gallery">
+              <img
+                src="assets/images/icedCaramel.jpg"
+                alt="Caramel Latte"
+                data-caption="Caramel Latte – Latte dengan karamel."
+              />
+              <figcaption>Caramel Latte</figcaption>
+            </figure>
+            <figure class="aulia_gallery">
+              <img
+                src="assets/images/matchalateee.jpeg"
+                alt="Matcha Latte"
+                data-caption="Matcha Latte – Minuman non-kopi."
+              />
+              <figcaption>Matcha Latte</figcaption>
+            </figure>
+            <figure class="aulia_gallery">
+              <img
+                src="assets/images/coklattt.jpg"
+                alt="Chocolate Milk"
+                data-caption="Chocolate Milk – Cokelat dingin manis."
+              />
+              <figcaption>Chocolate Milk</figcaption>
+            </figure>
+            <figure class="aulia_gallery">
+              <img
+                src="assets/images/suasanaaa.png"
+                alt="Suasana Kedai"
+                data-caption="Suasana Kedai – Interior hangat dan nyaman."
+              />
+              <figcaption>Suasana Kedai</figcaption>
+            </figure>
+            <figure class="aulia_gallery">
+              <img
+                src="assets/images/baristaaa.jpg"
+                alt="Barista"
+                data-caption="Barista – Proses menyeduh kopi."
+              />
+              <figcaption>Barista</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <div id="aulia_lightbox" class="aulia_lightbox" hidden>
+        <button id="aulia_close" class="aulia_close" aria-label="Tutup gambar">
+          ✕</button
+        ><img id="aulia_lightbox_img" src="" alt="" />
+        <p id="aulia_lightbox_cap"></p>
+      </div>
+    </main>
+    <footer id="aulia_footer">
+      <div class="aulia_container aulia_footer_grid">
+        <div>
+          <h3>KopiKita</h3>
+          <p>Secangkir Kopi, Sejuta Cerita.</p>
+        </div>
+        <div class="aulia_footer_links">
+          <a href="index.html">Beranda</a><a href="menu.html">Menu</a
+          ><a href="tentang.html">Tentang Kami</a
+          ><a href="galeri.html">Galeri</a><a href="testimoni.html">Testimoni</a
+          ><a href="lokasi.html">Lokasi</a><a href="kontak.html">Kontak</a>
+        </div>
+      </div>
+      <p class="aulia_copy">© 2026 KopiKita</p>
+    </footer>
+    <button id="aulia_top" class="aulia_top" aria-label="Kembali ke atas">
+      ↑
+    </button>
+    <script src="js/script.js"></script>
+  </body>
+</html>
